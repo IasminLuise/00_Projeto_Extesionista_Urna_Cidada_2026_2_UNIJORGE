@@ -1,0 +1,30 @@
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Java / build
+*.class
+*.jar
+*.log
+target/
+build/
+out/
+bin/
+.gradle/
+
+# IDEs
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+nbproject/private/
+
+# Firebase: credenciais NUNCA vão para o GitHub
+*serviceAccount*.json
+*firebase-adminsdk*.json
+google-services.json
+.env
+# Senha do mesário: cada integrante cria o seu arquivo, nunca vai para o GitHub
+senha-mesario.txt
